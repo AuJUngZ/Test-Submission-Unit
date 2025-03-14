@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Co Ltd - PIN Verification</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/pin_verification.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <button class="back-button">&#8249;</button>
+      </div>
+
+      <div class="logo-container">
+        <div class="logo">
+          <span>me</span>
+        </div>
+        <div class="title">ใส่ PIN เพื่อดำเนินการต่อ</div>
+      </div>
+
+      <div class="pin-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+
+      <div class="reset-pin">
+        <a href="#">ลืมรหัส PIN</a>
+      </div>
+
+      <div class="numpad">
+        <button class="num-button" data-num="1">1</button>
+        <button class="num-button" data-num="2">2</button>
+        <button class="num-button" data-num="3">3</button>
+        <button class="num-button" data-num="4">4</button>
+        <button class="num-button" data-num="5">5</button>
+        <button class="num-button" data-num="6">6</button>
+        <button class="num-button" data-num="7">7</button>
+        <button class="num-button" data-num="8">8</button>
+        <button class="num-button" data-num="9">9</button>
+        <div></div>
+        <button class="num-button" data-num="0">0</button>
+        <button class="num-button delete-button">
+          <i class="fas fa-backspace"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/pin_verification.js"></script>
+  </body>
+</html>

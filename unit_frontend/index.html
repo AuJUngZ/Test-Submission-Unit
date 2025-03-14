@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Co Ltd - Frontend Exam</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <i class="fas fa-arrow-left"></i>
+        <div class="title">
+          <p>เชื่อมต่อ</p>
+          <p>ด้วยหมายเลขโทรศัพท์มือถือ</p>
+        </div>
+      </div>
+      <div class="content">
+        <form class="form">
+          <div class="input-container">
+            <label for="tel" class="input-label">หมายเลขโทรศัพท์</label>
+            <input
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="กรุณากรอกหมายเลขโทรศัพท์"
+              required
+            />
+          </div>
+          <div class="next-button">
+            <div class="footer-text">
+              โดยกดปุ่ม <b>"ตกลง"</b> เพื่อยอมรับ
+              <span class="footer-highlight">
+                ข้อกำหนดและเงื่อนไขรวมทั้ง รับทราบนโยบายคุ้มครองข้อมูลส่วนบุคคล
+              </span>
+            </div>
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-check"></i> ตกลง
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
